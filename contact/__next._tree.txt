@@ -1,4 +1,4 @@
-:HL["/donaula-handyman/_next/static/chunks/11~wqsg5pjcy6.css","style"]
+:HL["/donaula-handyman/_next/static/chunks/1584.6j548l57.css","style"]
 :HL["https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700,900&display=swap","style"]
 :HL["https://api.fontshare.com/v2/css?f[]=erode@400,500,600&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"wbnlNoFF5ZG6lX_700wyf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"W6_TuWPijJzDE5La9Lv55"}
