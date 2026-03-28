@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/donaula-handyman/_next/static/chunks/00mxf4i4r~hqp.js","/donaula-handyman/_next/static/chunks/0j591ajpcro1c.js","/donaula-handyman/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-3:I[37457,["/donaula-handyman/_next/static/chunks/00mxf4i4r~hqp.js","/donaula-handyman/_next/static/chunks/0j591ajpcro1c.js","/donaula-handyman/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+2:I[39756,["/donaula-handyman/_next/static/chunks/0d7-zb2cylf~-.js","/donaula-handyman/_next/static/chunks/0rh1.u0jgebnf.js","/donaula-handyman/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[37457,["/donaula-handyman/_next/static/chunks/0d7-zb2cylf~-.js","/donaula-handyman/_next/static/chunks/0rh1.u0jgebnf.js","/donaula-handyman/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"WtpAXkd4u-GPWgRzLwlvB"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"wbnlNoFF5ZG6lX_700wyf"}
