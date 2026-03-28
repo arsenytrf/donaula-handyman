@@ -1,0 +1,4 @@
+:HL["/donaula-handyman/_next/static/chunks/03g_e.ic.ghoo.css","style"]
+:HL["https://api.fontshare.com/v2/css?f[]=zodiak@400,500,600,700&display=swap","style"]
+:HL["https://api.fontshare.com/v2/css?f[]=work-sans@400,500,600,700&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"RvqspExlPM2pKuW0k-fc7"}

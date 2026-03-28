@@ -1,0 +1,10 @@
+:HL["/donaula-handyman/_next/static/chunks/03g_e.ic.ghoo.css","style"]
+:HL["https://api.fontshare.com/v2/css?f[]=zodiak@400,500,600,700&display=swap","style"]
+:HL["https://api.fontshare.com/v2/css?f[]=work-sans@400,500,600,700&display=swap","style"]
+:HL["https://images.craigslist.org/00000_2Xk60KHiCBB_0aT0ew_600x450.jpg","image"]
+:HL["https://images.craigslist.org/00y0y_WEsTP75UuFz_06H0ew_600x450.jpg","image"]
+:HL["https://images.craigslist.org/00O0O_gTda3JFUHRHz_06I0ew_600x450.jpg","image"]
+:HL["https://images.craigslist.org/00O0O_brOtGrOiUzXz_0dm0sU_600x450.jpg","image"]
+:HL["https://images.craigslist.org/00F0F_iWV7TjDnTnc_0CI0t2_600x450.jpg","image"]
+:HL["https://images.craigslist.org/00C0C_khhftiXqd3C_0aT0ew_600x450.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"services","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"RvqspExlPM2pKuW0k-fc7"}
