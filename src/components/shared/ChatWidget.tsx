@@ -190,7 +190,7 @@ export function ChatWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ type: "spring" as const, stiffness: 300, damping: 25 }}
-            className="fixed bottom-6 right-6 z-50 w-[380px] max-h-[580px] bg-white shadow-2xl border border-neutral-200 flex flex-col overflow-hidden"
+            className="fixed bottom-4 right-4 left-4 sm:left-auto z-50 sm:w-[360px] max-h-[520px] bg-white shadow-2xl border border-neutral-200 flex flex-col overflow-hidden"
             style={{ borderRadius: "12px" }}
           >
             {/* Header */}
@@ -200,7 +200,7 @@ export function ChatWidget() {
                   DONAULA Handyman
                 </p>
                 <p className="text-white/70 text-xs">
-                  Usually responds in minutes
+                  Responds instantly
                 </p>
               </div>
               <button

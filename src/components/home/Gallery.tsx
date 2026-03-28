@@ -29,36 +29,36 @@ export function Gallery() {
     <section id="gallery" className="py-20 md:py-28 lg:py-32 bg-neutral-50">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
         <ScrollReveal>
-          <div className="text-center mb-12">
+          <div className="text-center mb-10">
             <span className="inline-block text-[10px] tracking-[0.25em] uppercase font-medium mb-3 text-accent-600">
               Our Work
             </span>
-            <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-neutral-900">
+            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-neutral-900">
               Recent Projects
             </h2>
-            <p className="text-neutral-500 mt-3 max-w-lg mx-auto">
+            <p className="text-neutral-500 mt-3 max-w-lg mx-auto text-sm">
               Real photos from real jobs across Westchester, the Bronx, and
               beyond.
             </p>
           </div>
         </ScrollReveal>
 
-        {/* Masonry-style grid */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+        {/* Tight 4-column grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3">
           {galleryImages.map((img, i) => (
-            <ScrollReveal key={i} delay={(i % 4) * 0.05}>
+            <ScrollReveal key={i} delay={(i % 4) * 0.04}>
               <button
                 onClick={() => openLightbox(i)}
-                className="w-full block overflow-hidden group relative break-inside-avoid"
+                className="w-full block overflow-hidden group relative aspect-[4/3]"
               >
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-accent-950/0 group-hover:bg-accent-950/40 transition-colors duration-300 flex items-end justify-start p-4">
-                  <span className="text-white text-sm font-medium opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                <div className="absolute inset-0 bg-accent-950/0 group-hover:bg-accent-950/40 transition-colors duration-300 flex items-end justify-start p-3">
+                  <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
                     {img.category}
                   </span>
                 </div>

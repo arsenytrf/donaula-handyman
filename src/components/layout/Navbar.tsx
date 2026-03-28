@@ -51,14 +51,26 @@ export function Navbar() {
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 flex items-center justify-between h-16 lg:h-20">
-          <Link href="/" className="flex items-center gap-2 group">
-            <span
-              className={`font-heading font-black text-xl tracking-tight transition-colors duration-300 ${
-                scrolled ? "text-accent-700" : "text-white"
-              }`}
-            >
-              DONAULA
-            </span>
+          <Link href="/" className="flex items-center gap-2.5 group">
+            <div className={`w-8 h-8 flex items-center justify-center font-heading font-black text-xs transition-all duration-300 ${
+              scrolled ? "bg-accent-600 text-white" : "bg-white text-accent-700"
+            }`}>
+              DH
+            </div>
+            <div className="flex flex-col leading-none">
+              <span
+                className={`font-heading font-black text-base tracking-wide transition-colors duration-300 ${
+                  scrolled ? "text-accent-700" : "text-white"
+                }`}
+              >
+                DONAULA
+              </span>
+              <span className={`text-[9px] tracking-[0.2em] uppercase font-medium transition-colors duration-300 ${
+                scrolled ? "text-neutral-400" : "text-white/60"
+              }`}>
+                Handyman
+              </span>
+            </div>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
@@ -135,12 +147,16 @@ export function Navbar() {
                 stiffness: 300,
                 damping: 30,
               }}
-              className="fixed top-0 right-0 bottom-0 z-[60] w-full max-w-[420px] bg-white flex flex-col"
+              className="fixed top-0 right-0 bottom-0 z-[60] w-[70%] max-w-[360px] bg-white flex flex-col"
             >
               <div className="flex items-center justify-between px-6 py-5">
-                <span className="font-heading font-black text-xl text-accent-700 tracking-tight">
-                  DONAULA
-                </span>
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 flex items-center justify-center bg-accent-600 text-white font-heading font-black text-[10px]">DH</div>
+                  <div className="flex flex-col leading-none">
+                    <span className="font-heading font-black text-base text-accent-700 tracking-wide">DONAULA</span>
+                    <span className="text-[8px] tracking-[0.2em] uppercase text-neutral-400 font-medium">Handyman</span>
+                  </div>
+                </div>
                 <button
                   onClick={() => setDrawerOpen(false)}
                   className="p-2 text-neutral-500 hover:text-neutral-900 transition-colors duration-300"
